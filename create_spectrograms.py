@@ -110,7 +110,7 @@ print('Populating validation folder with spectrograms...')
 for j in training_list:
     start = timer()
     for k in range(0, 1):
-        plot_spectrogram_val(SCRIPT_DIR + INPUT_FOLDER + 'Validation/' + j,
+        plot_spectrogram_val(SCRIPT_DIR + INPUT_FOLDER + 'Train/' + j,
                                             plotpath=OUTPUT_FOLDER + 'Validation/' +
                                             str(j[:-13]) +
                                             str(k) + '.jpeg',
